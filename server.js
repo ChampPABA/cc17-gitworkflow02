@@ -4,6 +4,8 @@ const app = express();
 
 app.use();
 
+// app.use("/login", อ๊อดเราเตอร์)
+
 app.use(errorMiddleware);
 
 const port = 8000;
